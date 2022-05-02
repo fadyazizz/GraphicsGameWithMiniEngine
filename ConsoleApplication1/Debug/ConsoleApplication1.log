@@ -1,0 +1,13 @@
+﻿  Bulb.cpp
+  Elf.cpp
+D:\ConsoleApplication1\ConsoleApplication1\Elf.cpp(13,19): warning C4305: '=': truncation from 'double' to 'float'
+D:\ConsoleApplication1\ConsoleApplication1\Elf.cpp(25,39): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\ConsoleApplication1\ConsoleApplication1\Elf.cpp(25,27): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+D:\ConsoleApplication1\ConsoleApplication1\Elf.cpp(25,15): warning C4244: 'argument': conversion from 'double' to 'GLfloat', possible loss of data
+  Engine.cpp
+D:\ConsoleApplication1\ConsoleApplication1\Engine.cpp(58,20): warning C4018: '<': signed/unsigned mismatch
+D:\ConsoleApplication1\ConsoleApplication1\Engine.cpp(289,20): warning C4018: '<': signed/unsigned mismatch
+D:\ConsoleApplication1\ConsoleApplication1\Engine.cpp(351,20): warning C4018: '<': signed/unsigned mismatch
+D:\ConsoleApplication1\ConsoleApplication1\Engine.cpp(530,34): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Generating Code...
+  ConsoleApplication1.vcxproj -> D:\ConsoleApplication1\Debug\ConsoleApplication1.exe
