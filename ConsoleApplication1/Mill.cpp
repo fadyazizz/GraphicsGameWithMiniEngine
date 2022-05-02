@@ -29,7 +29,8 @@ void Mill::draw() {
 	mill.Draw();
 
 	glPopMatrix();
-	//this->debug();
-
+	if (this->isDebug) {
+		this->debug();
+	}
 
 }

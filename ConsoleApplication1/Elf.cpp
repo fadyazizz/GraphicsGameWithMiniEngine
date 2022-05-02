@@ -17,6 +17,7 @@ Elf ::Elf(double translateX, double translateY, double translateZ, double scaleX
 
 	this->canCollide = true;
 	this->isTrigger = true;
+	this->isDebug = true;
 }
 
 
@@ -33,6 +34,8 @@ void Elf::draw() {
 	if(hasGift){
 		gift->draw();
 	}
-	//uncomment this line if you want to see the collider
-	this->debug();
+	
+	if (this->isDebug) {
+		this->debug();
+	}
 }

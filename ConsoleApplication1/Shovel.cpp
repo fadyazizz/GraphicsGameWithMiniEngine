@@ -28,5 +28,7 @@ void Shovel::draw() {
 	shovel.Draw();
 
 	glPopMatrix();
-	//this->debug();
+	if (this->isDebug) {
+		this->debug();
+	}
 }

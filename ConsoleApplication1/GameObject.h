@@ -10,6 +10,7 @@ public:
 	bool hasSound;
 	bool canMove;
 	bool canCollide=false;
+	bool isDebug = false;
 	std::string tag;
 	void setUpCollider(double minX, double maxX, double minY, double maxY, double minZ, double maxZ);
 	void setUpScale(double scaleX, double scaleY, double scaleZ);

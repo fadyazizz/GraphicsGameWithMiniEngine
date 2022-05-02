@@ -28,5 +28,7 @@ void SnowMan::draw() {
 	snowMan.Draw();
 
 	glPopMatrix();
-	//this->debug();
+	if (this->isDebug) {
+		this->debug();
+	}
 }

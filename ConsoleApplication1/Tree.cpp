@@ -40,5 +40,7 @@ void Tree::draw() {
 	tree.Draw();
 
 	glPopMatrix();
-	//this->debug();
+	if (this->isDebug) {
+		this->debug();
+	}
 }

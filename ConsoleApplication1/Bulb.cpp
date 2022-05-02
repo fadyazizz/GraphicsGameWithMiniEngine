@@ -21,11 +21,11 @@ float color2 = 0.5;
 void Bulb::draw() {
 	if (color1 >= 1) {
 		color1 = 0;
-		std::cout <<  "herecc" << std::endl;
+		//std::cout <<  "herecc" << std::endl;
 	}
 	if (color2 >= 1) {
 		color2 = 0;
-		std::cout << "herecc" << std::endl;
+		//std::cout << "herecc" << std::endl;
 	}
 	color2 = color2+0.01;
 	color1 = color1 + 0.01;
@@ -66,6 +66,7 @@ void Bulb::draw() {
 
 
 
-	// uncomment this line if you want to see the collider
-	//this->debug();
+	if (this->isDebug) {
+		this->debug();
+	}
 }

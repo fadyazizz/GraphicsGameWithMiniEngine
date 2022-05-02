@@ -33,5 +33,7 @@ void Child::draw() {
 	if (hasGift) {
 		gift->draw();
 	}
-	//this->debug();
+	if (this->isDebug) {
+		this->debug();
+	}
 }
